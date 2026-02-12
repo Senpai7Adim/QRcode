@@ -1,2 +1,2 @@
 static/qrcodes/
-instance/qrcodes.db
+instance/*.db
