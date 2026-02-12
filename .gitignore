@@ -2,4 +2,5 @@
 static/qrcodes/
 
 #Base de données
+instance/qrcodes.db
 instance/qrcodes.sqlite3
