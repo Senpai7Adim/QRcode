@@ -1,5 +1,5 @@
 #QR code 
 static/qrcodes/
 
-#Base de sonnées
-instance/qrcodes.db
+#Base de données
+instance/qrcodes.sqlite3
