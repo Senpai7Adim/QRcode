@@ -152,8 +152,8 @@ def download(filename):
 # Vercel Handler
 # -------------------------
 
-def handler(request):
-    return app(request)
+#def handler(request):
+ #   return app(request)
 
 # -------------------------
 # Run Locally
