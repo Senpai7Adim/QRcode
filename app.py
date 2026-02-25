@@ -149,13 +149,6 @@ def download(filename):
     return send_file(file_path, as_attachment=True)
 
 # -------------------------
-# Vercel Handler
-# -------------------------
-
-def handler(request):
-    return app(request)
-
-# -------------------------
 # Run Locally
 # -------------------------
 

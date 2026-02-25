@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QR Code Generator - Create Custom QR Codes</title>
-    <link rel="stylesheet" href="../static/styles.css">
-      <link rel="icon" type="image/png" sizes="32x32" href="../static/image/senpai-log.jpg">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='image/senpai-log.jpg') }}">
 </head>
 <body>
     <!-- Background Animation -->
@@ -301,6 +301,6 @@
             });
         });
     </script>
-    <script src="../static/script.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>
